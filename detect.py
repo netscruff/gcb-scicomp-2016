@@ -15,8 +15,8 @@ def detect_problems(filename):
         print 'High scores on chrM!'
     else:
         print 'Seems OK!'
-        
-filenames = glob.glob('/Users/dcl9/gcbCourse/materials/cshl_rna_seq/*.bed*')
+
+filenames = glob.glob('../cshl_rna_seq/*.bed*')
 
 # loops over all files now
 for f in filenames:
